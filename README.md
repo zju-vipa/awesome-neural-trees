@@ -1,4 +1,4 @@
-# awesome-neural-trees
+# Awesome Neural Trees
 This is a list of awesome neural tree papers.
 
 ## Introduction
