@@ -162,6 +162,7 @@ their approximation target is the input-output relationship
   - [[Paper]](http://arxiv-export-lb.library.cornell.edu/abs/2003.04675)
   - Chengliang Yang, Anand Rangarajan, Sanjay Ranka *(CART tree learned from the contribution matrix and applied to scene understanding tasks)*
   - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8622994)
+  - [[Code]](https://github.com/west-gates/GIRP)
   - Quanshi Zhang, Yu Yang, Haotian Ma, Ying Nian Wu *(encodes all potential decision modes of the CNN in a coarse-to-fine manner)*
   - [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Interpreting_CNNs_via_Decision_Trees_CVPR_2019_paper.html)
 
@@ -171,6 +172,7 @@ These approaches train NNs that resemble compact DTs through crafted regularizat
 - **Tree regularization**
   - Mike Wu, Michael Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, Finale Doshi-Velez *(a complexity penalty function that aims to optimize the deep model for interpretability and human-simulatability)*
   - [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/11501)
+  - [[Code]](https://github.com/dtak/tree-regularization-public)
   - Mike Wu *et al. (extended work of tree regularization that encourage a deep model to be approximated by several separate DTs specific to pre-defined regions of the input space.)*
   - [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/6112)
   - [[Paper]](https://www.jair.org/index.php/jair/article/view/12558)
@@ -202,7 +204,84 @@ based methods, corresponding to different strategies of employing class hierarch
     <img src='class_hierarchy.png' width='1000'>
 </p>
 
+#### 2.1 Hierarchical Architecture.
+These methods attempt to incorporate the class hierarchy into the architecture of the classifier, so that the networks
+are designed to be branched and each branch is tasked to identify the concept abstraction at one specific level of the
+class hierarchy.
 
+- **Hierarchical multi-label classification using local neural networks**
+  - Ricardo Cerri, Rodrigo C Barros, André CPLF De Carvalho
+  - [[Paper]](https://www.sciencedirect.com/science/article/pii/S0022000013000718)
+  - Ricardo Cerri, Rodrigo C Barros, André C PLF de Carvalho, Yaochu Jin
+  - [[Paper]](https://link.springer.com/article/10.1186/s12859-016-1232-1)
+  - Zhicheng Yan, Hao Zhang, Robinson Piramuthu, Vignesh Jagadeesh, Dennis DeCoste, Wei Di, Yizhou Yu
+  - [[Paper]](https://openaccess.thecvf.com/content_iccv_2015/html/Yan_HD-CNN_Hierarchical_Deep_ICCV_2015_paper.html)
+  - [[Code]](https://github.com/Changgang-Zheng/HD-CNN)
+  - Dongliang Chang, Kaiyue Pang, Yixiao Zheng, Zhanyu Ma, Yi-Zhe Song, Jun Guo *(disentangle coarse and fine features)*
+  - [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Chang_Your_Flamingo_is_My_Bird_Fine-Grained_or_Not_CVPR_2021_paper.html)
+  - [[Code]](https://github.com/PRIS-CV/Fine-Grained-or-Not)
+
+- **Branch the network after a shared trunk**
+  - Hui Wu, Michele Merler, Rosario Uceda-Sosa, John R Smith *(a single network backbone shared by multiple fully-connected layers)*
+  - [[Paper]](https://dl.acm.org/doi/abs/10.1145/2964284.2967205)
+  - Alsallakh Bilal, Amin Jourabloo, Mao Ye, Xiaoming Liu, Liu Ren *(deep CNN with branches at intermediate layers to fit the coarser-grained labels)*
+  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8017618)
+  - Tianshui Chen, Wenxi Wu, Yuefang Gao, Le Dong, Xiaonan Luo, Liang Lin *(introduce an attention mechanism to incorporate the coarse-grained results for learning finer-grained features)*
+  - [[Paper]](https://dl.acm.org/doi/abs/10.1145/3240508.3240523)
+
+- **Interactions between different branches**
+  - Renzhen Wang, *et al* *(propose label hierarchy transition matrices whose column vectors represent the conditional label distributions of classes between two adjacent hierarchies)*
+  - [[Paper]](https://arxiv.org/abs/2112.02353)
+  - Jingzhou Chen, Peng Wang, Jian Liu, Yuntao Qian *(propose the hierarchical residual network in which granularity-specific features from parent levels are added to features in children levels.)*
+  - [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Label_Relation_Graphs_Enhanced_Hierarchical_Residual_Network_for_Hierarchical_Multi-Granularity_CVPR_2022_paper.html)
+  - [[Code]](https://github.com/MonsterZhZh/HRN)
+
+#### 2.2 Hierarchical Loss Function.
+Incorporate the class hierarchy into loss functions, which exploits the underlying hierarchical relationships and produce
+predictions coherent with the pre-defined class hierarchy.
+
+- **Predict at each grain separately, *i.e.*, first take a model pre-trained on one level, then tune it using labels from other levels**
+  - Eleonora Giunchiglia and Thomas Lukasiewicz
+  - [[Paper]](https://proceedings.neurips.cc/paper/2020/hash/6dd4e10e3296fa63738371ec0d5df818-Abstract.html)
+  - [[Code]](https://github.com/EGiunchiglia/C-HMCNN)
+  - Joshua C Peterson, Paul Soulos, Aida Nematzadeh, Thomas L Griffiths
+  - [[Paper]](https://arxiv.org/abs/1805.07647)
+
+- **Utilize the hierarchical constraints directly**
+  - Nakul Verma, Dhruv Mahajan, Sundararajan Sellamanickam, Vinod Nair *(probabilistic nearest-neighbor classification based framework)*
+  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6247938)
+  - Nitish Srivastava and Russ R Salakhutdinov *(DNN with hierarchical priors over the parameters of the classification layer)*
+  - [[Paper]](https://proceedings.neurips.cc/paper/2013/hash/9ac403da7947a183884c18a67d3aa8de-Abstract.html)
+  - Jia Deng, Nan Ding, Yangqing Jia, Andrea Frome, Kevin Murphy, Samy Bengio, Yuan Li, Hartmut Neven, Hartwig Adam *(encodes semantic relations into a directed acyclic graph and compute a loss defined on it)*
+  - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-10590-1_4)
+  - [[Code]](https://github.com/kylemin/HEX-graph)
+  - Luca Bertinetto, Romain Mueller, Konstantinos Tertikas, Sina Samangooei, Nicholas A Lord *(incorporate class hierarchy into the cross-entropy loss)*
+  - [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Bertinetto_Making_Better_Mistakes_Leveraging_Class_Hierarchies_With_Deep_Networks_CVPR_2020_paper.html)
+
+#### 2.3 Label Embedding.
+These approaches aim to encode the class hierarchy into embeddings whose relative locations or possible interactions
+represent the semantic relationships.
+
+- **DeViSE method that utilizes unannotated Wikipedia text**
+  - Andrea Frome, Greg S Corrado, Jon Shlens, Samy Bengio, Jeff Dean, Marc’Aurelio Ranzato, Tomas Mikolov
+  - [[Paper]](https://proceedings.neurips.cc/paper/2013/hash/7cce53cf90577442771720a370c3c723-Abstract.html)
+  - [[Code]](https://github.com/jean4599/DeViSE)
+
+- **Embeddings whose pair-wise dot products correspond to semantic similarity between classes**
+  - Björn Barz and Joachim Denzler
+  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8658633)
+  - [[Code]](https://github.com/cvjena/semantic-embeddings)
+
+- **Employ the entailment cones to learn order-preserving embeddings**
+  - Ankit Dhall, Anastasia Makarova, Octavian Ganea, Dario Pavllo, Michael Greeff, Andreas Krause
+  - [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2020/html/w50/Dhall_Hierarchical_Image_Classification_Using_Entailment_Cone_Embeddings_CVPRW_2020_paper.html)
+  - [[Code]](https://github.com/ankitdhall/learning_embeddings)
+
+- **Label embeddings in zero-shot classification**
+  - Yongqin Xian, Zeynep Akata, Gaurav Sharma, Quynh Nguyen, Matthias Hein, Bernt Schiele
+  - [[Paper]](https://openaccess.thecvf.com/content_cvpr_2016/html/Xian_Latent_Embeddings_for_CVPR_2016_paper.html)
+  - Zeynep Akata, Scott Reed, Daniel Walter, Honglak Lee, Bernt Schiele
+  - [[Paper]](https://openaccess.thecvf.com/content_cvpr_2015/html/Akata_Evaluation_of_Output_2015_CVPR_paper.html)
 
 
 
