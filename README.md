@@ -1,17 +1,17 @@
-# Awesome-Neural-Tree-Papers <img class="emoji" alt=":art:" height="30" width="30" src="tree.png">
-Selected papers and possible corresponding codes in our review paper **"A Survey of Neural Trees" [[arXiv Version]](https://arxiv.org/abs/2209.03415) [[ResearchGate Version]](https://www.researchgate.net/publication/363349864_A_Survey_of_Neural_Trees)**
+# Awesome Neural Tree Papers <img class="emoji" alt=":art:" height="30" width="30" src="tree.png">
+Selected papers and possible corresponding codes in our review paper **"A Survey of Neural Trees" [[arXiv Version]](https://arxiv.org/abs/2209.03415)**
 
 *If you find there is a missed paper or a possible mistake in our survey, please feel free to email me or pull a request here. I am more than glad to receive your advice. Thanks!*
 
 ## Introduction
-Neural trees (NTs) refers to a school of methods that combine neural networks (NNs) and decision trees (DTs), for which
+Neural trees (NTs) refer to a school of methods that combine neural networks (NNs) and decision trees (DTs), for which
 we present a comprehensive review in this survey. Our keynote is to identify how these approaches enhance the model
 interpretability and suggest possible solutions to the remaining challenges. Besides, we provide a discussion about
 other considerations like conditional computation and promising directions towards this field, in hope to advance
 the practice of NTs.
 
 ## *News!*
-- nothing by now.
+- New work of NTs and possible changes in this survey will be notified here.
 
 ### Citation 
 If you find this survey useful for your research, please consider citing
@@ -169,8 +169,7 @@ their approximation target is the input-output relationship
 
 - **Generalized eclectic techniques**
   - Chengliang Yang, Anand Rangarajan, Sanjay Ranka *(CART tree learned from the contribution matrix and applied to scene understanding tasks)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8622994)
-  - [[Code]](https://github.com/west-gates/GIRP)
+  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8622994) [[Code]](https://github.com/west-gates/GIRP)
   - Quanshi Zhang, Yu Yang, Haotian Ma, Ying Nian Wu *(encodes all potential decision modes of the CNN in a coarse-to-fine manner)*
   - [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Interpreting_CNNs_via_Decision_Trees_CVPR_2019_paper.html)
 
@@ -227,11 +226,9 @@ class hierarchy.
   - Ricardo Cerri, Rodrigo C Barros, André C PLF de Carvalho, Yaochu Jin
   - [[Paper]](https://link.springer.com/article/10.1186/s12859-016-1232-1)
   - Zhicheng Yan, Hao Zhang, Robinson Piramuthu, Vignesh Jagadeesh, Dennis DeCoste, Wei Di, Yizhou Yu
-  - [[Paper]](https://openaccess.thecvf.com/content_iccv_2015/html/Yan_HD-CNN_Hierarchical_Deep_ICCV_2015_paper.html)
-  - [[Code]](https://github.com/Changgang-Zheng/HD-CNN)
+  - [[Paper]](https://openaccess.thecvf.com/content_iccv_2015/html/Yan_HD-CNN_Hierarchical_Deep_ICCV_2015_paper.html) [[Code]](https://github.com/Changgang-Zheng/HD-CNN)
   - Dongliang Chang, Kaiyue Pang, Yixiao Zheng, Zhanyu Ma, Yi-Zhe Song, Jun Guo *(disentangle coarse and fine features)*
-  - [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Chang_Your_Flamingo_is_My_Bird_Fine-Grained_or_Not_CVPR_2021_paper.html)
-  - [[Code]](https://github.com/PRIS-CV/Fine-Grained-or-Not)
+  - [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Chang_Your_Flamingo_is_My_Bird_Fine-Grained_or_Not_CVPR_2021_paper.html) [[Code]](https://github.com/PRIS-CV/Fine-Grained-or-Not)
 
 - **Branch the network after a shared trunk**
   - Hui Wu, Michele Merler, Rosario Uceda-Sosa, John R Smith *(a single network backbone shared by multiple fully-connected layers)*
@@ -245,8 +242,7 @@ class hierarchy.
   - Renzhen Wang, *et al* *(propose label hierarchy transition matrices whose column vectors represent the conditional label distributions of classes between two adjacent hierarchies)*
   - [[Paper]](https://arxiv.org/abs/2112.02353)
   - Jingzhou Chen, Peng Wang, Jian Liu, Yuntao Qian *(propose the hierarchical residual network in which granularity-specific features from parent levels are added to features in children levels.)*
-  - [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Label_Relation_Graphs_Enhanced_Hierarchical_Residual_Network_for_Hierarchical_Multi-Granularity_CVPR_2022_paper.html)
-  - [[Code]](https://github.com/MonsterZhZh/HRN)
+  - [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Label_Relation_Graphs_Enhanced_Hierarchical_Residual_Network_for_Hierarchical_Multi-Granularity_CVPR_2022_paper.html) [[Code]](https://github.com/MonsterZhZh/HRN)
 
 #### 2.2 Hierarchical Loss Function.
 Incorporate the class hierarchy into loss functions, which exploits the underlying hierarchical relationships and produce
@@ -254,8 +250,7 @@ predictions coherent with the pre-defined class hierarchy.
 
 - **Predict at each grain separately, *i.e.*, first take a model pre-trained on one level, then tune it using labels from other levels**
   - Eleonora Giunchiglia and Thomas Lukasiewicz
-  - [[Paper]](https://proceedings.neurips.cc/paper/2020/hash/6dd4e10e3296fa63738371ec0d5df818-Abstract.html)
-  - [[Code]](https://github.com/EGiunchiglia/C-HMCNN)
+  - [[Paper]](https://proceedings.neurips.cc/paper/2020/hash/6dd4e10e3296fa63738371ec0d5df818-Abstract.html) [[Code]](https://github.com/EGiunchiglia/C-HMCNN)
   - Joshua C Peterson, Paul Soulos, Aida Nematzadeh, Thomas L Griffiths
   - [[Paper]](https://arxiv.org/abs/1805.07647)
 
@@ -265,8 +260,7 @@ predictions coherent with the pre-defined class hierarchy.
   - Nitish Srivastava and Russ R Salakhutdinov *(DNN with hierarchical priors over the parameters of the classification layer)*
   - [[Paper]](https://proceedings.neurips.cc/paper/2013/hash/9ac403da7947a183884c18a67d3aa8de-Abstract.html)
   - Jia Deng, Nan Ding, Yangqing Jia, Andrea Frome, Kevin Murphy, Samy Bengio, Yuan Li, Hartmut Neven, Hartwig Adam *(encodes semantic relations into a directed acyclic graph and compute a loss defined on it)*
-  - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-10590-1_4)
-  - [[Code]](https://github.com/kylemin/HEX-graph)
+  - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-10590-1_4) [[Code]](https://github.com/kylemin/HEX-graph)
   - Luca Bertinetto, Romain Mueller, Konstantinos Tertikas, Sina Samangooei, Nicholas A Lord *(incorporate class hierarchy into the cross-entropy loss)*
   - [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Bertinetto_Making_Better_Mistakes_Leveraging_Class_Hierarchies_With_Deep_Networks_CVPR_2020_paper.html)
 
@@ -276,18 +270,15 @@ represent the semantic relationships.
 
 - **DeViSE method that utilizes unannotated Wikipedia text**
   - Andrea Frome, Greg S Corrado, Jon Shlens, Samy Bengio, Jeff Dean, Marc’Aurelio Ranzato, Tomas Mikolov
-  - [[Paper]](https://proceedings.neurips.cc/paper/2013/hash/7cce53cf90577442771720a370c3c723-Abstract.html)
-  - [[Code]](https://github.com/jean4599/DeViSE)
+  - [[Paper]](https://proceedings.neurips.cc/paper/2013/hash/7cce53cf90577442771720a370c3c723-Abstract.html) [[Code]](https://github.com/jean4599/DeViSE)
 
 - **Embeddings whose pair-wise dot products correspond to semantic similarity between classes**
   - Björn Barz and Joachim Denzler
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8658633)
-  - [[Code]](https://github.com/cvjena/semantic-embeddings)
+  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8658633) [[Code]](https://github.com/cvjena/semantic-embeddings)
 
 - **Employ the entailment cones to learn order-preserving embeddings**
   - Ankit Dhall, Anastasia Makarova, Octavian Ganea, Dario Pavllo, Michael Greeff, Andreas Krause
-  - [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2020/html/w50/Dhall_Hierarchical_Image_Classification_Using_Entailment_Cone_Embeddings_CVPRW_2020_paper.html)
-  - [[Code]](https://github.com/ankitdhall/learning_embeddings)
+  - [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2020/html/w50/Dhall_Hierarchical_Image_Classification_Using_Entailment_Cone_Embeddings_CVPRW_2020_paper.html) [[Code]](https://github.com/ankitdhall/learning_embeddings)
 
 - **Label embeddings in zero-shot classification**
   - Yongqin Xian, Zeynep Akata, Gaurav Sharma, Quynh Nguyen, Matthias Hein, Bernt Schiele
@@ -349,8 +340,7 @@ the most class purity)*
   - Alberto Suárez, James F Lutsko *(superimpose a fuzzy structure over the skeleton of a CART tree and introduce a global optimization algorithm)*
   - [[Paper]](https://ieeexplore.ieee.org/abstract/document/817409)
   - Ozan Irsoy, Olcay Taner Yildiz, Ethem Alpaydin *(a FDT model that can be dynamically adjusted)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6977328)
-  - [[Code]](https://github.com/oir/budding-tree)
+  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6977328) [[Code]](https://github.com/oir/budding-tree)
   - Dmitry Laptev, Joachim M Buhmann *(applies fuzzy NDTs to image segmentation by extracting the most informative and interpretable features)*
   - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-11752-2_8)
   - Randall Balestriero *(map similar inputs to the same hash value)*
@@ -374,26 +364,21 @@ priors or algorithms such that induce the class hierarchy.
   - Ishwar K Sethi *et al.* *(randomly initialized leaf classes)*
   - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320397000058)
   - Alvin Wan *et al.* *(assign a specific concept to each terminal and intermediate node by WordNet)*
-  - [[Paper]](https://arxiv.org/abs/2004.00221)
-  - [[Code]](https://github.com/alvinwan/nbdt-pytorch-image-models)
+  - [[Paper]](https://arxiv.org/abs/2004.00221) [[Code]](https://github.com/alvinwan/nbdt-pytorch-image-models)
 
 - **Bigot NDTs with determined leaf distributions**
   - Nicholas Frosst, Geoffrey Hinton *(jointly optimize leaves and other parameters via back-propagation)*
-  - [[Paper]](https://arxiv.org/abs/1711.09784)
-  - [[Code]](https://github.com/kimhc6028/soft-decision-tree)
+  - [[Paper]](https://arxiv.org/abs/1711.09784) [[Code]](https://github.com/kimhc6028/soft-decision-tree)
   - Aurélia Léon, Ludovic Denoyer *(use Monte Carlo approximation to expect the gradient of the objective function)*
   - [[Paper]](http://www.smart-labex.fr/publications/pdf/56eab488c05ef.pdf)
   - Peter Kontschieder, Madalina Fiterau, Antonio Criminisi, Samuel Rota Bulo *(propose a derivative-free strategy to solely optimize the leaf parameters, as a convex optimization problem)*
-  - [[Paper]](https://openaccess.thecvf.com/content_iccv_2015/html/Kontschieder_Deep_Neural_Decision_ICCV_2015_paper.html)
-  - [[Code]](https://github.com/jingxil/Neural-Decision-Forests)
+  - [[Paper]](https://openaccess.thecvf.com/content_iccv_2015/html/Kontschieder_Deep_Neural_Decision_ICCV_2015_paper.html) [[Code]](https://github.com/jingxil/Neural-Decision-Forests)
   - Wei Shen, Yilu Guo, Yan Wang, Kai Zhao, Bo Wang, Alan L Yuille *(regression forests for age estimation)*
-  - [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/html/Shen_Deep_Regression_Forests_CVPR_2018_paper.html)
-  - [[Code]](https://github.com/Sakura03/age_trans)
+  - [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/html/Shen_Deep_Regression_Forests_CVPR_2018_paper.html) [[Code]](https://github.com/Sakura03/age_trans)
   - Samuel Rota Bulo, Peter Kontschieder *(decision forests for semantic image labelling)*
   - [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Bulo_Neural_Decision_Forests_2014_CVPR_paper.html)
   - WMeike Nauta, Ron van Bree, Christin Seifert *(prototype-based ante-hoc methods)*
-  - [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Nauta_Neural_Prototype_Trees_for_Interpretable_Fine-Grained_Image_Recognition_CVPR_2021_paper.html?ref=https://githubhelp.com)
-  - [[Code]](https://github.com/M-Nauta/ProtoTree)
+  - [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Nauta_Neural_Prototype_Trees_for_Interpretable_Fine-Grained_Image_Recognition_CVPR_2021_paper.html?ref=https://githubhelp.com) [[Code]](https://github.com/M-Nauta/ProtoTree)
 
 - **Bigot NDTs for knowledge distillation**
   - Jie Song, Haofei Zhang, Xinchao Wang, Mengqi Xue, Ying Chen, Li Sun, Dacheng Tao, Mingli Song *(layer-wise dissect the decision process of a DNN)*
@@ -401,8 +386,7 @@ priors or algorithms such that induce the class hierarchy.
   - Mengqi Xue, Jie Song, Li Sun, Mingli Song *(mine the underlying category relationships from a trained teacher network and determines the appropriate layers on which specialized branches grow)*
   - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-93247-3_18)
   - Nicholas Frosst, Geoffrey Hinton *(use a trained NN to provide soft targets for training a fuzzy NDT)*
-  - [[Paper]](https://arxiv.org/abs/1711.09784)
-  - [[Code]](https://github.com/kimhc6028/soft-decision-tree)
+  - [[Paper]](https://arxiv.org/abs/1711.09784) [[Code]](https://github.com/kimhc6028/soft-decision-tree)
   - Jiawei Li, Yiming Li, Xingchun Xiang, Shu-Tao Xia, Siyi Dong, Yun Cai *(transfer knowledge between tree models and DNNs)*
   - [[Paper]](https://www.mdpi.com/1099-4300/22/11/1203)
 
@@ -422,26 +406,21 @@ leaf nodes are usually classifiers rather than determined classes or distributio
 
 - **Generalized HMEs in advanced frameworks**
   - Ruyi Ji, Longyin Wen, Libo Zhang, Dawei Du, Yanjun Wu, Chen Zhao, Xianglong Liu, Feiyue Huang *(incorporate convolutional operations along edges and use attention transformer modules to capture discriminative features)*
-  - [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Ji_Attention_Convolutional_Binary_Neural_Tree_for_Fine-Grained_Visual_Categorization_CVPR_2020_paper.html)
-  - [[Code]](https://isrc.iscas.ac.cn/gitlab/research/acnet)
+  - [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Ji_Attention_Convolutional_Binary_Neural_Tree_for_Fine-Grained_Visual_Categorization_CVPR_2020_paper.html) [[Code]](https://isrc.iscas.ac.cn/gitlab/research/acnet)
   - Han Xiao *(reformulate the non-differentiable information gain in the form of Dirac symbol and approximate it as a continuous function)*
   - [[Paper]](https://arxiv.org/abs/1712.05934)
   - Yani Ioannou, Duncan Robertson, Darko Zikic, Peter Kontschieder, Jamie Shotton, Matthew Brown, Antonio Criminisi *(hybrid model between decision forests and convolutional networks)*
   - [[Paper]](https://arxiv.org/abs/1603.01250)
   - Yongxin Yang, Irene Garcia Morillo, and Timothy M Hospedales *(bin each feature of the input instance and determine the leaf node it will arrive)*
-  - [[Paper]](https://arxiv.org/abs/1806.06988)
-  - [[Code]](https://github.com/wOOL/DNDT)
+  - [[Paper]](https://arxiv.org/abs/1806.06988) [[Code]](https://github.com/wOOL/DNDT)
   - Sangwon Kim, Jaeyeal Nam, Byoung Chul Ko *(transformer version of ProtoTree with expert leaves)*
-  - [[Paper]](https://proceedings.mlr.press/v162/kim22g.html)
-  - [[Code]](https://github.com/jumpsnack/ViT-NeT)
+  - [[Paper]](https://proceedings.mlr.press/v162/kim22g.html) [[Code]](https://github.com/jumpsnack/ViT-NeT)
 
 - **Expert NDTs with architecture search phase**
   - Ryutaro Tanno, Kai Arulkumaran, Daniel Alexander, Antonio Criminisi, Aditya Nori *(greedily choosing the best option between going deeper and splitting the input space)*
-  - [[Paper]](http://proceedings.mlr.press/v97/tanno19a.html?utm_campaign=piqcy&utm_medium=email&utm_source=Revue%20newsletter)
-  - [[Code]](https://github.com/rtanno21609/AdaptiveNeuralTrees)
+  - [[Paper]](http://proceedings.mlr.press/v97/tanno19a.html?utm_campaign=piqcy&utm_medium=email&utm_source=Revue%20newsletter) [[Code]](https://github.com/rtanno21609/AdaptiveNeuralTrees)
   - Ying Chen, Feng Mao, Jie Song, Xinchao Wang, Huiqiong Wang, Mingli Song *(NDTs that are self-born from a large search space)*
-  - [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Chen_Self-Born_Wiring_for_Neural_Trees_ICCV_2021_paper.html)
-  - [[Code]](https://github.com/HollyLee2000/SeBoW-paddle)
+  - [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Chen_Self-Born_Wiring_for_Neural_Trees_ICCV_2021_paper.html) [[Code]](https://github.com/HollyLee2000/SeBoW-paddle)
 
 
 
