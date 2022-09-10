@@ -166,6 +166,8 @@ their approximation target is the input-output relationship
 - **Extended C-Net algorithm**
   - Duy T Nguyen, Kathryn E Kasmarik, Hussein A Abbass *(a typical eclectic technique)*
   - [[Paper]](http://arxiv-export-lb.library.cornell.edu/abs/2003.04675)
+
+- **Generalized eclectic techniques**
   - Chengliang Yang, Anand Rangarajan, Sanjay Ranka *(CART tree learned from the contribution matrix and applied to scene understanding tasks)*
   - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8622994)
   - [[Code]](https://github.com/west-gates/GIRP)
