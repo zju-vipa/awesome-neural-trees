@@ -95,18 +95,20 @@ the decision boundaries implicitly learned by the hidden layers.
 Treat NNs as black-box approaches, and extract the input-output rule directly form NNs regardless of its intermediate
 layers.
 
+A description of pedagogical techniques:
+
+<p align='center'>
+    </br>
+    <img src='shortened_rule_extract.png' width='1000'>
+</p>
+
 - **TREPAN: the first practice of DT-based interpretation**
   - Mark Craven, Jude Shavlik
   - [[Paper]](https://proceedings.neurips.cc/paper/1995/hash/45f31d16b1058d586fc3be7207b58053-Abstract.html)
   - Mark Craven, Jude Shavlik
   - [[Paper]](https://www.sciencedirect.com/science/article/pii/B9781558603356500131)
 
-A description of TREPAN and other pedagogical techniques:
 
-<p align='center'>
-    </br>
-    <img src='shortened_rule_extract.png' width='1000'>
-</p>
 
 - **Remove insignificant input neurons from the trained network before inducing the DT**
   - Nikola Vasilev, Zheni Mincheva, Ventsislav Nikolov
@@ -421,36 +423,4 @@ leaf nodes are usually classifiers rather than determined classes or distributio
   - [[Paper]](http://proceedings.mlr.press/v97/tanno19a.html?utm_campaign=piqcy&utm_medium=email&utm_source=Revue%20newsletter) [[Code]](https://github.com/rtanno21609/AdaptiveNeuralTrees)
   - Ying Chen, Feng Mao, Jie Song, Xinchao Wang, Huiqiong Wang, Mingli Song *(NDTs that are self-born from a large search space)*
   - [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Chen_Self-Born_Wiring_for_Neural_Trees_ICCV_2021_paper.html) [[Code]](https://github.com/HollyLee2000/SeBoW-paddle)
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
