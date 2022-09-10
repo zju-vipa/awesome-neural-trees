@@ -1,4 +1,4 @@
-# Awesome-Neural-Tree-Papers <img class="emoji" alt=":art:" height="30" width="30" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a8.png">
+# Awesome-Neural-Tree-Papers <img class="emoji" alt=":art:" height="30" width="30" src="tree.png">
 Selected papers and possible corresponding codes in our review paper **"A Survey of Neural Trees" [[arXiv Version]](https://arxiv.org/abs/2209.03415) [[ResearchGate Version]](https://www.researchgate.net/publication/363349864_A_Survey_of_Neural_Trees)**
 
 *If you find there is a missed paper or a possible mistake in our survey, please feel free to email me or pull a request here. I am more than glad to receive your advice. Thanks!*
