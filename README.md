@@ -48,14 +48,14 @@ with structural priors.
 
 - **Entropy net: the first practice**
   - "Entropy nets: from decision trees to neural networks", 1990
-  - I.K. Sethi
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/58346/)
+    - I.K. Sethi
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/58346/)
   - "Layered neural net design through decision trees", 1990
-  - I.K. Sethi
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/112298)
+    - I.K. Sethi
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/112298)
   - "Comparison between entropy net and decision tree classifiers", 1990
-  - I.K. Sethi, Mike Otten
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/5726783)
+    - I.K. Sethi, Mike Otten
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/5726783)
 
 An example for the original [entropy net](https://ieeexplore.ieee.org/abstract/document/58346/):
 
@@ -66,37 +66,37 @@ An example for the original [entropy net](https://ieeexplore.ieee.org/abstract/d
 
 - **ID3-based algorithm that converts DTs into hidden layers:**
   - "A machine learning method for generation of a neural network architecture: a continuous ID3 algorithm", 1992
-  - K.J. Cios, N. Liu
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/125869)
+    - K.J. Cios, N. Liu
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/125869)
 
 - **Soft thresholding of entropy net:**
   - "Neural implementation of tree classifiers", 1995
-  - I.K. Sethi
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/398685)
+    - I.K. Sethi
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/398685)
 
 - **Oblique trees version of entropy net:**
   - "A mapping from linear tree classifiers to neural net classifiers", 1994
-  - Youngtae Park
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/374145)
+    - Youngtae Park
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/374145)
   - "Fast Training Algorithms for Multi-layer Neural Nets", 1991
-  - Richard P. Brent
-  - [[Paper]](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.122.4561&rep=rep1&type=pdf)
+    - Richard P. Brent
+    - [[Paper]](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.122.4561&rep=rep1&type=pdf)
 
 - **A knowledge acquisition system that concerns about the knowledge form DTs and NNs prefer:**
   - "Implementation and refinement of decision trees using neural networks for hybrid knowledge acquisition", 1995
-  - Katsuhiko Tsujino, Shogo Nishida
-  - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/0954181095000054)
+    - Katsuhiko Tsujino, Shogo Nishida
+    - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/0954181095000054)
 
 - **Create a disjunctive normal form formula for each class and reformulate the first layer of entropy net:**
   - "Initializing neural networks using decision trees", 1990
-  - Arunava Banerjee
-  - [[Paper]](https://scholarship.libraries.rutgers.edu/esploro/outputs/technicalDocumentation/Initializing-neural-networks-using-decision-trees/991031549998404646)
+    - Arunava Banerjee
+    - [[Paper]](https://scholarship.libraries.rutgers.edu/esploro/outputs/technicalDocumentation/Initializing-neural-networks-using-decision-trees/991031549998404646)
   - "Initialization of neural networks by means of decision trees", 1995
-  - Irena Ivanova, Miroslav Kubat
-  - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/0950705196819174)
+    - Irena Ivanova, Miroslav Kubat
+    - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/0950705196819174)
   - "On mapping decision trees and neural networks", 1999
-  - R.SetionoW, K.Leow
-  - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S095070519900009X)
+    - R.SetionoW, K.Leow
+    - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S095070519900009X)
 
 #### 1.2 DTs for Approximating NNs.
 Apply DTs to interpret trained NNs by approximating the network (mostly in terms of input-output mapping) and mimic
@@ -115,54 +115,54 @@ A description of pedagogical techniques:
 
 - **TREPAN: the first practice of DT-based interpretation**
   - "Extracting Tree-Structured Representations of Trained Networks", 1995
-  - Mark Craven, Jude Shavlik
-  - [[Paper]](https://proceedings.neurips.cc/paper/1995/hash/45f31d16b1058d586fc3be7207b58053-Abstract.html)
+    - Mark Craven, Jude Shavlik
+    - [[Paper]](https://proceedings.neurips.cc/paper/1995/hash/45f31d16b1058d586fc3be7207b58053-Abstract.html)
   - "Using Sampling and Queries to Extract Rules from Trained Neural Networks", 1994
-  - Mark Craven, Jude Shavlik
-  - [[Paper]](https://www.sciencedirect.com/science/article/pii/B9781558603356500131)
+    - Mark Craven, Jude Shavlik
+    - [[Paper]](https://www.sciencedirect.com/science/article/pii/B9781558603356500131)
 
 
 
 - **Remove insignificant input neurons from the trained network before inducing the DT**
   - "Decision Tree Extraction using Trained Neural Network", 2020
-  - Nikola Vasilev *et al.*
-  - [[Paper]](https://pdfs.semanticscholar.org/9528/ece5f2a9c71fac8ac258d6812ff5cc75da63.pdf)
+    - Nikola Vasilev *et al.*
+    - [[Paper]](https://pdfs.semanticscholar.org/9528/ece5f2a9c71fac8ac258d6812ff5cc75da63.pdf)
 
 - **Turn the 𝑚-of-𝑛 type splits into standard splitting tests such as C4.5**
   - "Decision Tree Extraction from Trained Neural Networks", 2004
-  - Darren Dancey *et al.* *(CART tree)*
-  - [[Paper]](https://www.aaai.org/Papers/FLAIRS/2004/Flairs04-089.pdf)
+    - Darren Dancey *et al.* *(CART tree)*
+    - [[Paper]](https://www.aaai.org/Papers/FLAIRS/2004/Flairs04-089.pdf)
   - "Converting a trained neural network to a decision tree DecText - decision tree extractor", 2000
-  - Olcay Boz *(propose discretization algorithms to handle continuous features)*
-  - [[Paper]](https://www.proquest.com/openview/11cd66e5b5aab652403e370ca7bf1eef/1?pq-origsite=gscholar&cbl=18750&diss=y)
+    - Olcay Boz *(propose discretization algorithms to handle continuous features)*
+    - [[Paper]](https://www.proquest.com/openview/11cd66e5b5aab652403e370ca7bf1eef/1?pq-origsite=gscholar&cbl=18750&diss=y)
   - "Extracting decision trees from trained neural networks", 2020
-  - Olcay Boz 
-  - [[Paper]](https://dl.acm.org/doi/abs/10.1145/775047.775113)
+    - Olcay Boz 
+    - [[Paper]](https://dl.acm.org/doi/abs/10.1145/775047.775113)
   - "NeC4.5: neural ensemble based C4.5", 2004
-  - Zhi-Hua Zhou, Yuan Jiang *(use NN ensembles)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/1294896)
+    - Zhi-Hua Zhou, Yuan Jiang *(use NN ensembles)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/1294896)
   - "Extracting decision trees from trained neural networks", 1999
-  - R.Krishnan, *et al.* *(adapt genetic algorithms to generate artificial examples)*
-  - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320398001812)
+    - R.Krishnan, *et al.* *(adapt genetic algorithms to generate artificial examples)*
+    - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320398001812)
 
 - **generalize the TREPAN algorithm**
   - "An investigation of TREPAN utilising a continuous oracle model", 2011 
-  - William A Young *et al.* *(develop DTs derived from continuous-based models)*
-  - [[Paper]](https://www.researchgate.net/profile/William-Young-10/publication/227441144_An_investigation_of_TREPAN_utilising_a_continuous_oracle_model/links/00b495258560f7e8d3000000/An-investigation-of-TREPAN-utilising-a-continuous-oracle-model.pdf?_sg%5B0%5D=started_experiment_milestone&origin=journalDetail)
+    - William A Young *et al.* *(develop DTs derived from continuous-based models)*
+    - [[Paper]](https://www.researchgate.net/profile/William-Young-10/publication/227441144_An_investigation_of_TREPAN_utilising_a_continuous_oracle_model/links/00b495258560f7e8d3000000/An-investigation-of-TREPAN-utilising-a-continuous-oracle-model.pdf?_sg%5B0%5D=started_experiment_milestone&origin=journalDetail)
   - "Trepan-Plus: An Extension of a Decision Tree Extraction Algorithm Utilizing Artificial Neural Networks", 2007
-  - M Rangwala, G Weckman, J Marvel, W Young *(extend TREPAN to multi-class regression problems)*
-  - [[Paper]](https://d1wqtxts1xzle7.cloudfront.net/47121083/TREPAN-PLUS_AN_EXTENSION_OF_A_DECISION_T20160708-16395-1sj4ete-with-cover-page-v2.pdf?Expires=1662897159&Signature=C2Z0VL3cIkc56vlIci5ERXC7VADyi9tEqIlvJ3CqHzaLB9bfY9Tma8UVsZpu1BXI1l24paZ0iJArqUUzEqrTvum7s93dAUL-pKmmBKausyKiAw3qj2Bx18I5jzDOat2TCKA6wd2GbiexuK7gtlfNgeu03fBg0Rx2UWt~2KW6RNMeamZinhzp1FCrSzH4fFRqhTuc2~UgajTzsaUlJHbJef-s9u2wOiwqNiEUAfwN8zG0tIEt-fE0GEUdSC9AzBVXLpodLTadDzUZODX7lzUX~o00-ZHxKl7VOnbi0wQ8OZw087zKQjqQNOw1ik16zfKMamZW~YS6e38aUgud0sOrBg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+    - M Rangwala, G Weckman, J Marvel, W Young *(extend TREPAN to multi-class regression problems)*
+    - [[Paper]](https://d1wqtxts1xzle7.cloudfront.net/47121083/TREPAN-PLUS_AN_EXTENSION_OF_A_DECISION_T20160708-16395-1sj4ete-with-cover-page-v2.pdf?Expires=1662897159&Signature=C2Z0VL3cIkc56vlIci5ERXC7VADyi9tEqIlvJ3CqHzaLB9bfY9Tma8UVsZpu1BXI1l24paZ0iJArqUUzEqrTvum7s93dAUL-pKmmBKausyKiAw3qj2Bx18I5jzDOat2TCKA6wd2GbiexuK7gtlfNgeu03fBg0Rx2UWt~2KW6RNMeamZinhzp1FCrSzH4fFRqhTuc2~UgajTzsaUlJHbJef-s9u2wOiwqNiEUAfwN8zG0tIEt-fE0GEUdSC9AzBVXLpodLTadDzUZODX7lzUX~o00-ZHxKl7VOnbi0wQ8OZw087zKQjqQNOw1ik16zfKMamZW~YS6e38aUgud0sOrBg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
   - "Extracting fuzzy symbolic representation from artificial neural networks", 1999
-  - Maciej Faifer, Cezary Z Janikow, Krzysztof Krawiec *(use fuzzy representation during the tree-induction process)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/781764)
+    - Maciej Faifer, Cezary Z Janikow, Krzysztof Krawiec *(use fuzzy representation during the tree-induction process)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/781764)
   - "DT+GNN: A Fully Explainable Graph Neural Network using Decision Trees", 2022
-  - Peter Müller, Lukas Faber, Karolis Martinkus, Roger Wattenhofer *(incorporate DTs into graph neural networks)*
-  - [[Paper]](https://arxiv.org/abs/2205.13234)
+    - Peter Müller, Lukas Faber, Karolis Martinkus, Roger Wattenhofer *(incorporate DTs into graph neural networks)*
+    - [[Paper]](https://arxiv.org/abs/2205.13234)
 
 - **NNs perform significance analysis to select attributes**
   - "ANN-DT: an algorithm for extraction of decision trees from artificial neural networks", 1999
-  - Gregor PJ Schmitz, Chris Aldrich, Francois S Gouws.
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/809084)
+    - Gregor PJ Schmitz, Chris Aldrich, Francois S Gouws.
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/809084)
 
 
 ##### *1.2.2 Decompositional Techniques.*
@@ -171,22 +171,22 @@ individual neurons, thus gaining insight into their inner structures.
 
 - **Extract axis-aligned trees**
   - "Rule extraction from neural networks via decision tree induction", 2001
-  - Makoto Sato, Hiroshi Tsukimoto *(CRED algorithm that deals with NNs with one hidden layer)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/938448)
+    - Makoto Sato, Hiroshi Tsukimoto *(CRED algorithm that deals with NNs with one hidden layer)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/938448)
   - "DeepRED – Rule Extraction from Deep Neural Networks", 2016
-  - Jan Ruben Zilke, Eneldo Loza Mencía, Frederik Janssen *(Extend CRED algorithm by deriving intermediate rules for every additional hidden layer)*
-  - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-46307-0_29)
+    - Jan Ruben Zilke, Eneldo Loza Mencía, Frederik Janssen *(Extend CRED algorithm by deriving intermediate rules for every additional hidden layer)*
+    - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-46307-0_29)
   - "Eclectic rule extraction from Neural Networks using aggregated Decision Trees", 2012
-  - MD. Ridwan Al Iqbal *(Simplify rules by logical simplification)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6471502)
+    - MD. Ridwan Al Iqbal *(Simplify rules by logical simplification)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6471502)
 
 - **Extract oblique and multivariate trees**
   - "NeuroLinear: From neural networks to oblique decision rules", 1997 
-  - Rudy Setiono, Huan Liu *(oblique trees)*
-  - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925231297000386)
+    - Rudy Setiono, Huan Liu *(oblique trees)*
+    - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925231297000386)
   - "Towards Interpretable ANNs: An Exact Transformation to Multi-Class Multivariate Decision Trees", 2020
-  - Duy T Nguyen, Kathryn E Kasmarik, Hussein A Abbass *(multivariate trees)*
-  - [[Paper]](http://arxiv-export-lb.library.cornell.edu/abs/2003.04675)
+    - Duy T Nguyen, Kathryn E Kasmarik, Hussein A Abbass *(multivariate trees)*
+    - [[Paper]](http://arxiv-export-lb.library.cornell.edu/abs/2003.04675)
 
 ##### *1.2.3 Eclectic Techniques.*
 Typically, eclectic techniques model the relationship between the last hidden layer and the outputs, then infer the
@@ -196,42 +196,40 @@ their approximation target is the input-output relationship
 
 - **Extended C-Net algorithm**
   - "Towards Interpretable ANNs: An Exact Transformation to Multi-Class Multivariate Decision Trees", 2020
-  - Duy T Nguyen, Kathryn E Kasmarik, Hussein A Abbass *(a typical eclectic technique)*
-  - [[Paper]](http://arxiv-export-lb.library.cornell.edu/abs/2003.04675)
+    - Duy T Nguyen, Kathryn E Kasmarik, Hussein A Abbass *(a typical eclectic technique)*
+    - [[Paper]](http://arxiv-export-lb.library.cornell.edu/abs/2003.04675)
 
 - **Generalized eclectic techniques**
   - "Global Model Interpretation Via Recursive Partitioning", 2018
-  - Chengliang Yang, Anand Rangarajan, Sanjay Ranka *(CART tree learned from the contribution matrix and applied to scene understanding tasks)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8622994) [[Code]](https://github.com/west-gates/GIRP)
+    - Chengliang Yang, Anand Rangarajan, Sanjay Ranka *(CART tree learned from the contribution matrix and applied to scene understanding tasks)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8622994) [[Code]](https://github.com/west-gates/GIRP)
   - "Interpreting CNNs via Decision Trees", 2019
-  - Quanshi Zhang, Yu Yang, Haotian Ma, Ying Nian Wu *(encodes all potential decision modes of the CNN in a coarse-to-fine manner)*
-  - [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Interpreting_CNNs_via_Decision_Trees_CVPR_2019_paper.html)
+    - Quanshi Zhang, Yu Yang, Haotian Ma, Ying Nian Wu *(encodes all potential decision modes of the CNN in a coarse-to-fine manner)*
+    - [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Interpreting_CNNs_via_Decision_Trees_CVPR_2019_paper.html)
 
 ##### *1.2.4 Optional: DTs for Regularizing NNs.*
 These approaches train NNs that resemble compact DTs through crafted regularization terms, so that they can be well-approximated by small DTs.
 
 - **Tree regularization**
   - "Beyond Sparsity: Tree Regularization of Deep Models for Interpretability", 2018 
-  - Mike Wu, Michael Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, Finale Doshi-Velez *(a complexity penalty function that aims to optimize the deep model for interpretability and human-simulatability)*
-  - [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/11501)
-  - [[Code]](https://github.com/dtak/tree-regularization-public)
-  - "Regional Tree Regularization for Interpretability in Deep Neural Networks", 2020 *and* "Optimizing for Interpretability in Deep Neural Networks with Tree Regularization", 2021
-  - Mike Wu *et al. (extended work of tree regularization that encourage a deep model to be approximated by several separate DTs specific to pre-defined regions of the input space.)*
-  - [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/6112)
-  - [[Paper]](https://www.jair.org/index.php/jair/article/view/12558)
+    - Mike Wu, Michael Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, Finale Doshi-Velez *(a complexity penalty function that aims to optimize the deep model for interpretability and human-simulatability)*
+    - [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/11501) [[Code]](https://github.com/dtak/tree-regularization-public)
+  - "Regional Tree Regularization for Interpretability in Deep Neural Networks", 2020
+    - Mike Wu *et al. (extended work of tree regularization that encourage a deep model to be approximated by several separate DTs specific to pre-defined regions of the input space)*
+    - [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/6112)
 
 - **L1-orthogonal regularization**
   - "Enhancing Decision Tree Based Interpretation of Deep Neural Networks through L1-Orthogonal Regularization", 2019
-  - Nina Schaaf, Marco Huber, Johannes Maucher *(so that they do not need a surrogate network to estimate the tree loss)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8999213)
+    - Nina Schaaf, Marco Huber, Johannes Maucher *(so that they do not need a surrogate network to estimate the tree loss)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8999213)
 
 #### 1.3 NNs for Designing DTs.
 NNs specialized for designing more reasonable DTs and do not benefit from it, which is rare in practice.
 
 - **Induce DTs from more valid data filtered by the trained NNs**
   - "An integrated approach of neural network and decision tree to classification", 2005
-  - Xiao-Ye Wang, Xiu-Xia Liang, and Ji-Zhou Sun
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/1527283)
+    - Xiao-Ye Wang, Xiu-Xia Liang, and Ji-Zhou Sun
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/1527283)
 
 ### 2. Semi-hybrid: NNs Leveraging Class Hierarchies.
 DT algorithms have two key ideas: "decision" and "tree". We view that "decision" is decision branches implemented by
@@ -260,36 +258,36 @@ class hierarchy.
 
 - **Hierarchical multi-label classification using local neural networks**
   - "An integrated approach of neural network and decision tree to classification", 2014
-  - Ricardo Cerri, Rodrigo C Barros, André CPLF De Carvalho
-  - [[Paper]](https://www.sciencedirect.com/science/article/pii/S0022000013000718)
+    - Ricardo Cerri, Rodrigo C Barros, André CPLF De Carvalho
+    - [[Paper]](https://www.sciencedirect.com/science/article/pii/S0022000013000718)
   - "Reduction strategies for hierarchical multi-label classification in protein function prediction", 2016
-  - Ricardo Cerri, Rodrigo C Barros, André C PLF de Carvalho, Yaochu Jin
-  - [[Paper]](https://link.springer.com/article/10.1186/s12859-016-1232-1)
+    - Ricardo Cerri, Rodrigo C Barros, André C PLF de Carvalho, Yaochu Jin
+    - [[Paper]](https://link.springer.com/article/10.1186/s12859-016-1232-1)
   - "HD-CNN: Hierarchical Deep Convolutional Neural Networks for Large Scale Visual Recognition", 2015
-  - Zhicheng Yan, Hao Zhang, Robinson Piramuthu, Vignesh Jagadeesh, Dennis DeCoste, Wei Di, Yizhou Yu
-  - [[Paper]](https://openaccess.thecvf.com/content_iccv_2015/html/Yan_HD-CNN_Hierarchical_Deep_ICCV_2015_paper.html) [[Code]](https://github.com/Changgang-Zheng/HD-CNN)
+    - Zhicheng Yan, Hao Zhang, Robinson Piramuthu, Vignesh Jagadeesh, Dennis DeCoste, Wei Di, Yizhou Yu
+    - [[Paper]](https://openaccess.thecvf.com/content_iccv_2015/html/Yan_HD-CNN_Hierarchical_Deep_ICCV_2015_paper.html) [[Code]](https://github.com/Changgang-Zheng/HD-CNN)
   - "Your "Flamingo" is My "Bird": Fine-Grained, or Not", 2021
-  - Dongliang Chang, Kaiyue Pang, Yixiao Zheng, Zhanyu Ma, Yi-Zhe Song, Jun Guo *(disentangle coarse and fine features)*
-  - [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Chang_Your_Flamingo_is_My_Bird_Fine-Grained_or_Not_CVPR_2021_paper.html) [[Code]](https://github.com/PRIS-CV/Fine-Grained-or-Not)
+    - Dongliang Chang, Kaiyue Pang, Yixiao Zheng, Zhanyu Ma, Yi-Zhe Song, Jun Guo *(disentangle coarse and fine features)*
+    - [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Chang_Your_Flamingo_is_My_Bird_Fine-Grained_or_Not_CVPR_2021_paper.html) [[Code]](https://github.com/PRIS-CV/Fine-Grained-or-Not)
 
 - **Branch the network after a shared trunk**
   - "Learning to Make Better Mistakes: Semantics-aware Visual Food Recognition", 2016 
-  - Hui Wu, Michele Merler, Rosario Uceda-Sosa, John R Smith *(a single network backbone shared by multiple fully-connected layers)*
-  - [[Paper]](https://dl.acm.org/doi/abs/10.1145/2964284.2967205)
+    - Hui Wu, Michele Merler, Rosario Uceda-Sosa, John R Smith *(a single network backbone shared by multiple fully-connected layers)*
+    - [[Paper]](https://dl.acm.org/doi/abs/10.1145/2964284.2967205)
   - "Do Convolutional Neural Networks Learn Class Hierarchy?", 2017
-  - Alsallakh Bilal, Amin Jourabloo, Mao Ye, Xiaoming Liu, Liu Ren *(deep CNN with branches at intermediate layers to fit the coarser-grained labels)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8017618)
+    - Alsallakh Bilal, Amin Jourabloo, Mao Ye, Xiaoming Liu, Liu Ren *(deep CNN with branches at intermediate layers to fit the coarser-grained labels)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8017618)
   - "Fine-Grained Representation Learning and Recognition by Exploiting Hierarchical Semantic Embedding", 2018
-  - Tianshui Chen, Wenxi Wu, Yuefang Gao, Le Dong, Xiaonan Luo, Liang Lin *(introduce an attention mechanism to incorporate the coarse-grained results for learning finer-grained features)*
-  - [[Paper]](https://dl.acm.org/doi/abs/10.1145/3240508.3240523)
+    - Tianshui Chen, Wenxi Wu, Yuefang Gao, Le Dong, Xiaonan Luo, Liang Lin *(introduce an attention mechanism to incorporate the coarse-grained results for learning finer-grained features)*
+    - [[Paper]](https://dl.acm.org/doi/abs/10.1145/3240508.3240523)
 
 - **Interactions between different branches**
   - "Label Hierarchy Transition: Modeling Class Hierarchies to Enhance Deep Classifiers", 2021
-  - Renzhen Wang, *et al* *(propose label hierarchy transition matrices whose column vectors represent the conditional label distributions of classes between two adjacent hierarchies)*
-  - [[Paper]](https://arxiv.org/abs/2112.02353)
+    - Renzhen Wang, *et al* *(propose label hierarchy transition matrices whose column vectors represent the conditional label distributions of classes between two adjacent hierarchies)*
+    - [[Paper]](https://arxiv.org/abs/2112.02353)
   - "Label Relation Graphs Enhanced Hierarchical Residual Network for Hierarchical Multi-Granularity Classification", 2022
-  - Jingzhou Chen, Peng Wang, Jian Liu, Yuntao Qian *(propose the hierarchical residual network in which granularity-specific features from parent levels are added to features in children levels.)*
-  - [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Label_Relation_Graphs_Enhanced_Hierarchical_Residual_Network_for_Hierarchical_Multi-Granularity_CVPR_2022_paper.html) [[Code]](https://github.com/MonsterZhZh/HRN)
+    - Jingzhou Chen, Peng Wang, Jian Liu, Yuntao Qian *(propose the hierarchical residual network in which granularity-specific features from parent levels are added to features in children levels.)*
+    - [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Label_Relation_Graphs_Enhanced_Hierarchical_Residual_Network_for_Hierarchical_Multi-Granularity_CVPR_2022_paper.html) [[Code]](https://github.com/MonsterZhZh/HRN)
 
 #### 2.2 Hierarchical Loss Function.
 Incorporate the class hierarchy into loss functions, which exploits the underlying hierarchical relationships and produce
@@ -297,25 +295,25 @@ predictions coherent with the pre-defined class hierarchy.
 
 - **Predict at each grain separately, *i.e.*, first take a model pre-trained on one level, then tune it using labels from other levels**
   - "Coherent Hierarchical Multi-Label Classification Networks", 2020
-  - Eleonora Giunchiglia and Thomas Lukasiewicz
-  - [[Paper]](https://proceedings.neurips.cc/paper/2020/hash/6dd4e10e3296fa63738371ec0d5df818-Abstract.html) [[Code]](https://github.com/EGiunchiglia/C-HMCNN)
+    - Eleonora Giunchiglia and Thomas Lukasiewicz
+    - [[Paper]](https://proceedings.neurips.cc/paper/2020/hash/6dd4e10e3296fa63738371ec0d5df818-Abstract.html) [[Code]](https://github.com/EGiunchiglia/C-HMCNN)
   - "Learning Hierarchical Visual Representations in Deep Neural Networks Using Hierarchical Linguistic Labels", 2018
-  - Joshua C Peterson, Paul Soulos, Aida Nematzadeh, Thomas L Griffiths
-  - [[Paper]](https://arxiv.org/abs/1805.07647)
+    - Joshua C Peterson, Paul Soulos, Aida Nematzadeh, Thomas L Griffiths
+    - [[Paper]](https://arxiv.org/abs/1805.07647)
 
 - **Utilize the hierarchical constraints directly**
   - "Learning hierarchical similarity metrics", 2012
-  - Nakul Verma, Dhruv Mahajan, Sundararajan Sellamanickam, Vinod Nair *(probabilistic nearest-neighbor classification based framework)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6247938)
+    - Nakul Verma, Dhruv Mahajan, Sundararajan Sellamanickam, Vinod Nair *(probabilistic nearest-neighbor classification based framework)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6247938)
   - "Discriminative Transfer Learning with Tree-based Priors", 2013
-  - Nitish Srivastava and Russ R Salakhutdinov *(DNN with hierarchical priors over the parameters of the classification layer)*
-  - [[Paper]](https://proceedings.neurips.cc/paper/2013/hash/9ac403da7947a183884c18a67d3aa8de-Abstract.html)
+    - Nitish Srivastava and Russ R Salakhutdinov *(DNN with hierarchical priors over the parameters of the classification layer)*
+    - [[Paper]](https://proceedings.neurips.cc/paper/2013/hash/9ac403da7947a183884c18a67d3aa8de-Abstract.html)
   - "Large-Scale Object Classification Using Label Relation Graphs", 2018
-  - Jia Deng, Nan Ding, Yangqing Jia, Andrea Frome, Kevin Murphy, Samy Bengio, Yuan Li, Hartmut Neven, Hartwig Adam *(encodes semantic relations into a directed acyclic graph and compute a loss defined on it)*
-  - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-10590-1_4) [[Code]](https://github.com/kylemin/HEX-graph)
+    - Jia Deng, Nan Ding, Yangqing Jia, Andrea Frome, Kevin Murphy, Samy Bengio, Yuan Li, Hartmut Neven, Hartwig Adam *(encodes semantic relations into a directed acyclic graph and compute a loss defined on it)*
+    - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-10590-1_4) [[Code]](https://github.com/kylemin/HEX-graph)
   - "Making Better Mistakes: Leveraging Class Hierarchies With Deep Networks", 2020
-  - Luca Bertinetto, Romain Mueller, Konstantinos Tertikas, Sina Samangooei, Nicholas A Lord *(incorporate class hierarchy into the cross-entropy loss)*
-  - [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Bertinetto_Making_Better_Mistakes_Leveraging_Class_Hierarchies_With_Deep_Networks_CVPR_2020_paper.html)
+    - Luca Bertinetto, Romain Mueller, Konstantinos Tertikas, Sina Samangooei, Nicholas A Lord *(incorporate class hierarchy into the cross-entropy loss)*
+    - [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Bertinetto_Making_Better_Mistakes_Leveraging_Class_Hierarchies_With_Deep_Networks_CVPR_2020_paper.html)
 
 #### 2.3 Label Embedding.
 These approaches aim to encode the class hierarchy into embeddings whose relative locations or possible interactions
@@ -323,26 +321,26 @@ represent the semantic relationships.
 
 - **DeViSE method that utilizes unannotated Wikipedia text**
   - "DeViSE: A Deep Visual-Semantic Embedding Model", 2013
-  - Andrea Frome, Greg S Corrado, Jon Shlens, Samy Bengio, Jeff Dean, Marc’Aurelio Ranzato, Tomas Mikolov
-  - [[Paper]](https://proceedings.neurips.cc/paper/2013/hash/7cce53cf90577442771720a370c3c723-Abstract.html) [[Code]](https://github.com/jean4599/DeViSE)
+    - Andrea Frome, Greg S Corrado, Jon Shlens, Samy Bengio, Jeff Dean, Marc’Aurelio Ranzato, Tomas Mikolov
+    - [[Paper]](https://proceedings.neurips.cc/paper/2013/hash/7cce53cf90577442771720a370c3c723-Abstract.html) [[Code]](https://github.com/jean4599/DeViSE)
 
 - **Embeddings whose pair-wise dot products correspond to semantic similarity between classes**
   - "Hierarchy-Based Image Embeddings for Semantic Image Retrieval", 2019
-  - Björn Barz and Joachim Denzler
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8658633) [[Code]](https://github.com/cvjena/semantic-embeddings)
+    - Björn Barz and Joachim Denzler
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/8658633) [[Code]](https://github.com/cvjena/semantic-embeddings)
 
 - **Employ the entailment cones to learn order-preserving embeddings**
   - "Hierarchical Image Classification Using Entailment Cone Embeddings", 2020
-  - Ankit Dhall, Anastasia Makarova, Octavian Ganea, Dario Pavllo, Michael Greeff, Andreas Krause
-  - [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2020/html/w50/Dhall_Hierarchical_Image_Classification_Using_Entailment_Cone_Embeddings_CVPRW_2020_paper.html) [[Code]](https://github.com/ankitdhall/learning_embeddings)
+    - Ankit Dhall, Anastasia Makarova, Octavian Ganea, Dario Pavllo, Michael Greeff, Andreas Krause
+    - [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2020/html/w50/Dhall_Hierarchical_Image_Classification_Using_Entailment_Cone_Embeddings_CVPRW_2020_paper.html) [[Code]](https://github.com/ankitdhall/learning_embeddings)
 
 - **Label embeddings in zero-shot classification**
   - "Latent Embeddings for Zero-Shot Classification", 2016
-  - Yongqin Xian, Zeynep Akata, Gaurav Sharma, Quynh Nguyen, Matthias Hein, Bernt Schiele
-  - [[Paper]](https://openaccess.thecvf.com/content_cvpr_2016/html/Xian_Latent_Embeddings_for_CVPR_2016_paper.html)
+    - Yongqin Xian, Zeynep Akata, Gaurav Sharma, Quynh Nguyen, Matthias Hein, Bernt Schiele
+    - [[Paper]](https://openaccess.thecvf.com/content_cvpr_2016/html/Xian_Latent_Embeddings_for_CVPR_2016_paper.html)
   - "Evaluation of Output Embeddings for Fine-Grained Image Classification", 2015
-  - Zeynep Akata, Scott Reed, Daniel Walter, Honglak Lee, Bernt Schiele
-  - [[Paper]](https://openaccess.thecvf.com/content_cvpr_2015/html/Akata_Evaluation_of_Output_2015_CVPR_paper.html)
+    - Zeynep Akata, Scott Reed, Daniel Walter, Honglak Lee, Bernt Schiele
+    - [[Paper]](https://openaccess.thecvf.com/content_cvpr_2015/html/Akata_Evaluation_of_Output_2015_CVPR_paper.html)
 
 
 ### 3. Hybrid: Neural Decision Trees.
@@ -369,64 +367,64 @@ A comparison between NDTs according to whether it implements a class hierarchy a
 
 - **Informativeness-related splitting functions with NN-based routers**
   - "Neural trees-using neural nets in a tree classifier structure", 1991
-  - J-E Stromberg, Jalel Zrida, Alf Isaksson *(train a small NN at each internal node, which singles out one unique class that gains
+    - J-E Stromberg, Jalel Zrida, Alf Isaksson *(train a small NN at each internal node, which singles out one unique class that gains
 the most class purity)*
-  - [[Paper]](https://www.computer.org/csdl/proceedings-article/icassp/1991/0003137/12OmNzdoMSH)
+    - [[Paper]](https://www.computer.org/csdl/proceedings-article/icassp/1991/0003137/12OmNzdoMSH)
   - "Evolutionary design of neural network tree-integration of decision tree, neural network and GA", 2001
-  - Qiangfu Zhao *(use genetic algorithms to maximize the information gain ratio at each internal node)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/934395)
+    - Qiangfu Zhao *(use genetic algorithms to maximize the information gain ratio at each internal node)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/934395)
   - "Hybrid decision tree", 2002
-  - Zhi-Hua Zhou and Zhao-Qian Chen *(Divide the instance space into ordered attributes and unordered attributes)*
-  - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0950705102000382)
+    - Zhi-Hua Zhou and Zhao-Qian Chen *(Divide the instance space into ordered attributes and unordered attributes)*
+    - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0950705102000382)
   - "Classification trees with neural network feature extraction", 1992
-  - Heng Guo, Saul B Gelfand *(find two clusters that minimizes a Gini impurity criterion, then find a good split through back-propagation)*
-  - [[Paper]](https://www.computer.org/csdl/proceedings-article/cvpr/1992/00223275/12OmNzBOilt)
+    - Heng Guo, Saul B Gelfand *(find two clusters that minimizes a Gini impurity criterion, then find a good split through back-propagation)*
+    - [[Paper]](https://www.computer.org/csdl/proceedings-article/cvpr/1992/00223275/12OmNzBOilt)
 
 - **Decrease the classification error at each node to be extended**
   - "Growing and pruning neural tree networks", 1993
-  - A Sakar *et al.* *(Divide the instance space into ordered attributes and unordered attributes)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/210172)
+    - A Sakar *et al.* *(Divide the instance space into ordered attributes and unordered attributes)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/210172)
 
 - **Grows during competitive learning**
   - "Competitive neural trees for pattern classification", 1998
-  - Sven Behnke, Nicolaos B Karayiannis
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/728387)
+    - Sven Behnke, Nicolaos B Karayiannis
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/728387)
 
 - **Map examples into the label embedding space and predicts using a NDT**
   - "Label Embedding Trees for Large Multi-Class Tasks", 2010
-  - Samy Bengio, Jason Weston, David Grangier
-  - [[Paper]](https://proceedings.neurips.cc/paper/2010/hash/06138bc5af6023646ede0e1f7c1eac75-Abstract.html)
+    - Samy Bengio, Jason Weston, David Grangier
+    - [[Paper]](https://proceedings.neurips.cc/paper/2010/hash/06138bc5af6023646ede0e1f7c1eac75-Abstract.html)
   - "Fast and Balanced: Efficient Label Tree Learning for Large Scale Object Recognition", 2011
-  - Jia Deng, Sanjeev Satheesh, Alexander Berg, Fei Li
-  - [[Paper]](https://proceedings.neurips.cc/paper/2011/hash/5a4b25aaed25c2ee1b74de72dc03c14e-Abstract.html)
+    - Jia Deng, Sanjeev Satheesh, Alexander Berg, Fei Li
+    - [[Paper]](https://proceedings.neurips.cc/paper/2011/hash/5a4b25aaed25c2ee1b74de72dc03c14e-Abstract.html)
 
 - **Apply data-driven architectures to fuzzy NDTs**
   - "Globally optimal fuzzy decision trees for classification and regression", 1999
-  - Alberto Suárez, James F Lutsko *(superimpose a fuzzy structure over the skeleton of a CART tree and introduce a global optimization algorithm)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/817409)
+    - Alberto Suárez, James F Lutsko *(superimpose a fuzzy structure over the skeleton of a CART tree and introduce a global optimization algorithm)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/817409)
   - "Budding Trees", 2014
-  - Ozan Irsoy, Olcay Taner Yildiz, Ethem Alpaydin *(a FDT model that can be dynamically adjusted)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6977328) [[Code]](https://github.com/oir/budding-tree)
+    - Ozan Irsoy, Olcay Taner Yildiz, Ethem Alpaydin *(a FDT model that can be dynamically adjusted)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6977328) [[Code]](https://github.com/oir/budding-tree)
   - "Convolutional Decision Trees for Feature Learning and Segmentation", 2014
-  - Dmitry Laptev, Joachim M Buhmann *(applies fuzzy NDTs to image segmentation by extracting the most informative and interpretable features)*
-  - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-11752-2_8)
+   - Dmitry Laptev, Joachim M Buhmann *(applies fuzzy NDTs to image segmentation by extracting the most informative and interpretable features)*
+    - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-11752-2_8)
   - "Neural Decision Trees", 2017
-  - Randall Balestriero *(map similar inputs to the same hash value)*
-  - [[Paper]](https://arxiv.org/abs/1702.07360)
+    - Randall Balestriero *(map similar inputs to the same hash value)*
+    - [[Paper]](https://arxiv.org/abs/1702.07360)
   - "Neuro-fuzzy decision trees", 2006
-  - Rajen B Bhatt, M Gopal *(employs fuzzy ID3 algorithm for DT-renovation)*
-  - [[Paper]](https://www.worldscientific.com/doi/abs/10.1142/s0129065706000470)
+    - Rajen B Bhatt, M Gopal *(employs fuzzy ID3 algorithm for DT-renovation)*
+    - [[Paper]](https://www.worldscientific.com/doi/abs/10.1142/s0129065706000470)
 
 - **Incremental learning**
   - "Hybrid decision tree", 2022
-  - Zhi-Hua Zhou and Zhao-Qian Chen *(two example-incremental tasks, one hypothesis-driven constructive induction mechanism)*
-  - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0950705102000382)
+    - Zhi-Hua Zhou and Zhao-Qian Chen *(two example-incremental tasks, one hypothesis-driven constructive induction mechanism)*
+    - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0950705102000382)
   - "Soft decision trees", 2012
-  - Ozan Irsoy, Olcay Taner Yıldız, Ethem Alpaydın *(sigmoid-based FDT whose splits are made by checking if there is an improvement over the validation set)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6460506)
+    - Ozan Irsoy, Olcay Taner Yıldız, Ethem Alpaydın *(sigmoid-based FDT whose splits are made by checking if there is an improvement over the validation set)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6460506)
   - "A Neural Tree with Partial Incremental Learning Capability", 2007
-  - Mu-Chun Su, Hsu-Hsun Lo *(choose a target class at each internal node and train a small NN to separate the positive patterns from negative ones)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/4370106)
+    - Mu-Chun Su, Hsu-Hsun Lo *(choose a target class at each internal node and train a small NN to separate the positive patterns from negative ones)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/4370106)
 
 ##### *3.1.2 Bigot NDTs.*
 A bigot NDT tends to have a pre-defined structure and determine leaves (pure classes or fixed class distributions) by
@@ -434,45 +432,45 @@ priors or algorithms such that induce the class hierarchy.
 
 - **Bigot NDTs with pure leaves**
   - "Structure-driven induction of decision tree classifiers through neural learning", 1997
-  - Ishwar K Sethi *et al.* *(randomly initialized leaf classes)*
-  - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320397000058)
+    - Ishwar K Sethi *et al.* *(randomly initialized leaf classes)*
+    - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320397000058)
   - "NBDT: Neural-Backed Decision Trees", 2020
-  - Alvin Wan *et al.* *(assign a specific concept to each terminal and intermediate node by WordNet)*
-  - [[Paper]](https://arxiv.org/abs/2004.00221) [[Code]](https://github.com/alvinwan/nbdt-pytorch-image-models)
+    - Alvin Wan *et al.* *(assign a specific concept to each terminal and intermediate node by WordNet)*
+    - [[Paper]](https://arxiv.org/abs/2004.00221) [[Code]](https://github.com/alvinwan/nbdt-pytorch-image-models)
 
 - **Bigot NDTs with determined leaf distributions**
   - "Distilling a Neural Network Into a Soft Decision Tree", 2017
-  - Nicholas Frosst, Geoffrey Hinton *(jointly optimize leaves and other parameters via back-propagation)*
-  - [[Paper]](https://arxiv.org/abs/1711.09784) [[Code]](https://github.com/kimhc6028/soft-decision-tree)
+    - Nicholas Frosst, Geoffrey Hinton *(jointly optimize leaves and other parameters via back-propagation)*
+    - [[Paper]](https://arxiv.org/abs/1711.09784) [[Code]](https://github.com/kimhc6028/soft-decision-tree)
   - "Policy-gradient Methods for Decision Trees", 2016
-  - Aurélia Léon, Ludovic Denoyer *(use Monte Carlo approximation to expect the gradient of the objective function)*
-  - [[Paper]](http://www.smart-labex.fr/publications/pdf/56eab488c05ef.pdf)
+    - Aurélia Léon, Ludovic Denoyer *(use Monte Carlo approximation to expect the gradient of the objective function)*
+    - [[Paper]](http://www.smart-labex.fr/publications/pdf/56eab488c05ef.pdf)
   - "Deep Neural Decision Forests", 2015
-  - Peter Kontschieder, Madalina Fiterau, Antonio Criminisi, Samuel Rota Bulo *(propose a derivative-free strategy to solely optimize the leaf parameters, as a convex optimization problem)*
-  - [[Paper]](https://openaccess.thecvf.com/content_iccv_2015/html/Kontschieder_Deep_Neural_Decision_ICCV_2015_paper.html) [[Code]](https://github.com/jingxil/Neural-Decision-Forests)
+    - Peter Kontschieder, Madalina Fiterau, Antonio Criminisi, Samuel Rota Bulo *(propose a derivative-free strategy to solely optimize the leaf parameters, as a convex optimization problem)*
+    - [[Paper]](https://openaccess.thecvf.com/content_iccv_2015/html/Kontschieder_Deep_Neural_Decision_ICCV_2015_paper.html) [[Code]](https://github.com/jingxil/Neural-Decision-Forests)
   - "Deep Regression Forests for Age Estimation", 2018
-  - Wei Shen, Yilu Guo, Yan Wang, Kai Zhao, Bo Wang, Alan L Yuille *(regression forests for age estimation)*
-  - [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/html/Shen_Deep_Regression_Forests_CVPR_2018_paper.html) [[Code]](https://github.com/Sakura03/age_trans)
+    - Wei Shen, Yilu Guo, Yan Wang, Kai Zhao, Bo Wang, Alan L Yuille *(regression forests for age estimation)*
+    - [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/html/Shen_Deep_Regression_Forests_CVPR_2018_paper.html) [[Code]](https://github.com/Sakura03/age_trans)
   - "Neural Decision Forests for Semantic Image Labelling", 2014
-  - Samuel Rota Bulo, Peter Kontschieder *(decision forests for semantic image labelling)*
-  - [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Bulo_Neural_Decision_Forests_2014_CVPR_paper.html)
+    - Samuel Rota Bulo, Peter Kontschieder *(decision forests for semantic image labelling)*
+    - [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Bulo_Neural_Decision_Forests_2014_CVPR_paper.html)
   - "Neural Prototype Trees for Interpretable Fine-Grained Image Recognition", 2021
-  - WMeike Nauta, Ron van Bree, Christin Seifert *(prototype-based ante-hoc methods)*
-  - [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Nauta_Neural_Prototype_Trees_for_Interpretable_Fine-Grained_Image_Recognition_CVPR_2021_paper.html?ref=https://githubhelp.com) [[Code]](https://github.com/M-Nauta/ProtoTree)
+    - WMeike Nauta, Ron van Bree, Christin Seifert *(prototype-based ante-hoc methods)*
+    - [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Nauta_Neural_Prototype_Trees_for_Interpretable_Fine-Grained_Image_Recognition_CVPR_2021_paper.html?ref=https://githubhelp.com) [[Code]](https://github.com/M-Nauta/ProtoTree)
 
 - **Bigot NDTs for knowledge distillation**
   - "Tree-Like Decision Distillation", 2021
-  - Jie Song, Haofei Zhang, Xinchao Wang, Mengqi Xue, Ying Chen, Li Sun, Dacheng Tao, Mingli Song *(layer-wise dissect the decision process of a DNN)*
-  - [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Song_Tree-Like_Decision_Distillation_CVPR_2021_paper.html)
+    - Jie Song, Haofei Zhang, Xinchao Wang, Mengqi Xue, Ying Chen, Li Sun, Dacheng Tao, Mingli Song *(layer-wise dissect the decision process of a DNN)*
+    - [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Song_Tree-Like_Decision_Distillation_CVPR_2021_paper.html)
   - "Tree-Like Branching Network for Multi-class Classification", 2021
-  - Mengqi Xue, Jie Song, Li Sun, Mingli Song *(mine the underlying category relationships from a trained teacher network and determines the appropriate layers on which specialized branches grow)*
-  - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-93247-3_18)
+    - Mengqi Xue, Jie Song, Li Sun, Mingli Song *(mine the underlying category relationships from a trained teacher network and determines the appropriate layers on which specialized branches grow)*
+    - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-93247-3_18)
   - "Distilling a Neural Network Into a Soft Decision Tree", 2017
-  - Nicholas Frosst, Geoffrey Hinton *(use a trained NN to provide soft targets for training a fuzzy NDT)*
-  - [[Paper]](https://arxiv.org/abs/1711.09784) [[Code]](https://github.com/kimhc6028/soft-decision-tree)
+    - Nicholas Frosst, Geoffrey Hinton *(use a trained NN to provide soft targets for training a fuzzy NDT)*
+    - [[Paper]](https://arxiv.org/abs/1711.09784) [[Code]](https://github.com/kimhc6028/soft-decision-tree)
   - "TNT: An Interpretable Tree-Network-Tree Learning Framework using Knowledge Distillation", 2020
-  - Jiawei Li, Yiming Li, Xingchun Xiang, Shu-Tao Xia, Siyi Dong, Yun Cai *(transfer knowledge between tree models and DNNs)*
-  - [[Paper]](https://www.mdpi.com/1099-4300/22/11/1203)
+    - Jiawei Li, Yiming Li, Xingchun Xiang, Shu-Tao Xia, Siyi Dong, Yun Cai *(transfer knowledge between tree models and DNNs)*
+    - [[Paper]](https://www.mdpi.com/1099-4300/22/11/1203)
 
 #### 3.2 Expert NDTs (NDTs without Class Hierarchies)
 NDTs without class hierarchies restrain themselves little and perform arbitrary predictions at the leaves. Their 
@@ -480,39 +478,38 @@ leaf nodes are usually classifiers rather than determined classes or distributio
 
 - **Hierarchical Mixtures of Experts (HME)**
   - "Hierarchical Mixtures of Experts and the EM Algorithm", 1994 
-  - Michael I Jordan, Robert A Jacobs *(the original HME, a tree-structured model for regression and classification.)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6796382)
+    - Michael I Jordan, Robert A Jacobs *(the original HME, a tree-structured model for regression and classification.)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/6796382)
   - "Classification using hierarchical mixtures of experts", 1994
-  - Steve R Waterhouse, Anthony J Robinson *(each leaf expert is non-linear and performs multi-way classification)*
-  - [[Paper]](https://ieeexplore.ieee.org/abstract/document/366050)
-  - "Bayesian Hierarchical Mixtures of Experts", 2012 *and* "Bayesian model search for mixture models based on optimizing variational bounds", 2002
-  - Christopher M Bishop, Naonori Ueda, Steve Waterhouse *et al.* *(bayesian treatments of the HME model to prevent the severe overfitting caused by maximum likelihood)*
-  - [[Paper]](https://arxiv.org/abs/1212.2447)
-  - [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0893608002000400)
+    - Steve R Waterhouse, Anthony J Robinson *(each leaf expert is non-linear and performs multi-way classification)*
+    - [[Paper]](https://ieeexplore.ieee.org/abstract/document/366050)
+  - "Bayesian Hierarchical Mixtures of Experts", 2012
+    - Christopher M Bishop, Naonori Ueda, Steve Waterhouse *et al.* *(bayesian treatments of the HME model to prevent the severe overfitting caused by maximum likelihood)*
+    - [[Paper]](https://arxiv.org/abs/1212.2447)
   
 
 - **Generalized HMEs in advanced frameworks**
   - "Attention Convolutional Binary Neural Tree for Fine-Grained Visual Categorization", 2020
-  - Ruyi Ji, Longyin Wen, Libo Zhang, Dawei Du, Yanjun Wu, Chen Zhao, Xianglong Liu, Feiyue Huang *(incorporate convolutional operations along edges and use attention transformer modules to capture discriminative features)*
-  - [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Ji_Attention_Convolutional_Binary_Neural_Tree_for_Fine-Grained_Visual_Categorization_CVPR_2020_paper.html) [[Code]](https://isrc.iscas.ac.cn/gitlab/research/acnet)
+    - Ruyi Ji, Longyin Wen, Libo Zhang, Dawei Du, Yanjun Wu, Chen Zhao, Xianglong Liu, Feiyue Huang *(incorporate convolutional operations along edges and use attention transformer modules to capture discriminative features)*
+    - [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Ji_Attention_Convolutional_Binary_Neural_Tree_for_Fine-Grained_Visual_Categorization_CVPR_2020_paper.html) [[Code]](https://isrc.iscas.ac.cn/gitlab/research/acnet)
   - "NDT: Neual Decision Tree Towards Fully Functioned Neural Graph", 2017
-  - Han Xiao *(reformulate the non-differentiable information gain in the form of Dirac symbol and approximate it as a continuous function)*
-  - [[Paper]](https://arxiv.org/abs/1712.05934)
+    - Han Xiao *(reformulate the non-differentiable information gain in the form of Dirac symbol and approximate it as a continuous function)*
+    - [[Paper]](https://arxiv.org/abs/1712.05934)
   - "Decision Forests, Convolutional Networks and the Models in-Between", 2016
-  - Yani Ioannou, Duncan Robertson, Darko Zikic, Peter Kontschieder, Jamie Shotton, Matthew Brown, Antonio Criminisi *(hybrid model between decision forests and convolutional networks)*
-  - [[Paper]](https://arxiv.org/abs/1603.01250)
+    - Yani Ioannou, Duncan Robertson, Darko Zikic, Peter Kontschieder, Jamie Shotton, Matthew Brown, Antonio Criminisi *(hybrid model between decision forests and convolutional networks)*
+    - [[Paper]](https://arxiv.org/abs/1603.01250)
   - "Deep Neural Decision Trees", 2018
-  - Yongxin Yang, Irene Garcia Morillo, and Timothy M Hospedales *(bin each feature of the input instance and determine the leaf node it will arrive)*
-  - [[Paper]](https://arxiv.org/abs/1806.06988) [[Code]](https://github.com/wOOL/DNDT)
+    - Yongxin Yang, Irene Garcia Morillo, and Timothy M Hospedales *(bin each feature of the input instance and determine the leaf node it will arrive)*
+    - [[Paper]](https://arxiv.org/abs/1806.06988) [[Code]](https://github.com/wOOL/DNDT)
   - "ViT-NeT: Interpretable Vision Transformers with Neural Tree Decoder", 2022
-  - Sangwon Kim, Jaeyeal Nam, Byoung Chul Ko *(transformer version of ProtoTree with expert leaves)*
-  - [[Paper]](https://proceedings.mlr.press/v162/kim22g.html) [[Code]](https://github.com/jumpsnack/ViT-NeT)
+    - Sangwon Kim, Jaeyeal Nam, Byoung Chul Ko *(transformer version of ProtoTree with expert leaves)*
+    - [[Paper]](https://proceedings.mlr.press/v162/kim22g.html) [[Code]](https://github.com/jumpsnack/ViT-NeT)
 
 - **Expert NDTs with architecture search phase**
   - "Adaptive Neural Trees", 2019
-  - Ryutaro Tanno, Kai Arulkumaran, Daniel Alexander, Antonio Criminisi, Aditya Nori *(greedily choosing the best option between going deeper and splitting the input space)*
-  - [[Paper]](http://proceedings.mlr.press/v97/tanno19a.html?utm_campaign=piqcy&utm_medium=email&utm_source=Revue%20newsletter) [[Code]](https://github.com/rtanno21609/AdaptiveNeuralTrees)
+    - Ryutaro Tanno, Kai Arulkumaran, Daniel Alexander, Antonio Criminisi, Aditya Nori *(greedily choosing the best option between going deeper and splitting the input space)*
+    - [[Paper]](http://proceedings.mlr.press/v97/tanno19a.html?utm_campaign=piqcy&utm_medium=email&utm_source=Revue%20newsletter) [[Code]](https://github.com/rtanno21609/AdaptiveNeuralTrees)
   - "Self-Born Wiring for Neural Trees", 2021
-  - Ying Chen, Feng Mao, Jie Song, Xinchao Wang, Huiqiong Wang, Mingli Song *(NDTs that are self-born from a large search space)*
-  - [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Chen_Self-Born_Wiring_for_Neural_Trees_ICCV_2021_paper.html) [[Code]](https://github.com/HollyLee2000/SeBoW-paddle)
+    - Ying Chen, Feng Mao, Jie Song, Xinchao Wang, Huiqiong Wang, Mingli Song *(NDTs that are self-born from a large search space)*
+    - [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Chen_Self-Born_Wiring_for_Neural_Trees_ICCV_2021_paper.html) [[Code]](https://github.com/HollyLee2000/SeBoW-paddle)
 
