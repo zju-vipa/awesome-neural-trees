@@ -16,13 +16,12 @@ the practice of NTs.
 ### Citation 
 If you find this survey useful for your research, please consider citing
 ```
-@article{,
+@article{li2022survey,
   title={A Survey of Neural Trees},
-  author={},
-  journal={},
-  year={}
+  author={Li, Haoling and Song, Jie and Xue, Mengqi and Zhang, Haofei and Ye, Jingwen and Cheng, Lechao and Song, Mingli},
+  journal={arXiv preprint arXiv:2209.03415},
+  year={2022}
 }
-The missing information will be filled later.
 ```
 
 Thanks!
