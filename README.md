@@ -11,7 +11,12 @@ other considerations like conditional computation and promising directions towar
 the practice of NTs.
 
 ## *News!*
-- New work of NTs and possible changes in this survey will be notified here.
+**New work of NTs and possible changes in this survey will be notified here.**
+
+- Add "ProGReST: Prototypical Graph Regression Soft Trees for Molecular Property Prediction" [[Paper]](https://arxiv.org/pdf/2210.03745.pdf), an interesting work that combines prototype learning, soft decision trees and Graph Neural Networks for compound property prediction. 
+- Add "Large-Scale Category Structure Aware Image
+Categorization" [[Paper]](https://proceedings.neurips.cc/paper/2011/file/d5cfead94f5350c12c322b5b664544c1-Paper.pdf) & "Leveraging Class Hierarchies with Metric-Guided Prototype Learning" [[Paper]](https://arxiv.org/pdf/2007.03047.pdf), two methods incorporating the class hierarchy into the regulariser of the general objective function in section 3. Although a regulariser is certainly feasible in utilize the class hierarchy, it is curiously rare in practice and these two methods are the only two examples we know of.
+- Add "Distillation Decision Tree" [[Paper]](https://arxiv.org/pdf/2206.04661.pdf), which interprets the black-box model by distilling its knowledge into decision trees, belonging to section 2.2.
 
 ### Citation 
 If you find this survey useful for your research, please consider citing
